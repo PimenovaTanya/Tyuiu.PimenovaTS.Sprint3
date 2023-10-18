@@ -11,7 +11,7 @@ namespace Tyuiu.PimenovaTS.Sprint3.Task1.V10.Lib
     {
         public double GetSumSeries(int value, int startValue, int stopValue)
         {
-            double s = 1;
+            double s = 0;
             while (startValue <= stopValue)
             {
                 s = s + Math.Pow((1 / (startValue + Math.Pow(value,startValue))), startValue);

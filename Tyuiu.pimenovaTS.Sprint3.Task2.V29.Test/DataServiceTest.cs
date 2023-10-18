@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.PimenovaTS.Sprint3.Task1.V10.Lib;
+using Tyuiu.pimenovaTS.Sprint3.Task2.V29.Lib;
 
-namespace Tyuiu.PimenovaTS.Sprint3.Task1.V10.Test
+namespace Tyuiu.pimenovaTS.Sprint3.Task2.V29.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -12,13 +12,13 @@ namespace Tyuiu.PimenovaTS.Sprint3.Task1.V10.Test
         {
             DataService ds = new DataService();
 
-            int value = 5;
+            double value = 0.5;
             int startValue = 1;
-            int stopValue = 17;
+            int stopValue = 18;
 
             double res = ds.GetSumSeries(value, startValue, stopValue);
 
-            double wait = 0.168;
+            double wait = 6433.54;
 
             Assert.AreEqual(wait, res);
         }
