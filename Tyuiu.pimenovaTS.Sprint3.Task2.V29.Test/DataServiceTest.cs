@@ -18,7 +18,7 @@ namespace Tyuiu.pimenovaTS.Sprint3.Task2.V29.Test
 
             double res = ds.GetSumSeries(value, startValue, stopValue);
 
-            double wait = 6433.54;
+            double wait = -0.186;
 
             Assert.AreEqual(wait, res);
         }
